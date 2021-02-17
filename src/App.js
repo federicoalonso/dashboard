@@ -1,10 +1,12 @@
-
+import React from 'react';
+import * as s from "./App.styles";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Vosas</h1>
-    </div>
+    
+    <s.App>
+      <s.Header>Cosas</s.Header>
+    </s.App>
   );
 }
 
